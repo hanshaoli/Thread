@@ -179,16 +179,16 @@ void main()
   		printf("%d",(int)((qwTotalBytes-qwFreeBytesToCaller)/1024/1024/1024));
   	}
     
-	cout<<"---";
-	bb=(double)(qwTotalBytes-qwFreeBytes);
-     printf("%f",bb);
-
-// 	Recurse(_T("C:"));
+// 	cout<<"---";
+// 	bb=(double)(qwTotalBytes-qwFreeBytes);
+//      printf("%f",bb);
 // 
-//   	printf("%d",total);
-// 	
+	Recurse(_T("C:"));
 
-  printf("%f",199.00/100.00);
+  	printf("%d",total);
+	
+
+ // printf("%f",199.00/100.00);
 
 
 
